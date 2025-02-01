@@ -3,12 +3,10 @@
 #Getting started with variables.
 #I can start by doing this: Let's use x and y for main variable name globally
 
-#Start:
-x = 0
-y = 1
-print(x, y)
-#Output: 0 1
-#Compare to Java that im familiar with Python doesn't use + sign when printing two value
+#Array
+fruits = ["apple", "orange", "mango", "banana", "strawberry"]
+print(fruits) #Print whole array
 
-#Hello world
-print("Hello, World!")
+print(fruits[0])#Print single index from an array
+
+print(fruits[2:4])#Print from index x to index y
